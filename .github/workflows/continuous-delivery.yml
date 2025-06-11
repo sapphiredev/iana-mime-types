@@ -1,7 +1,6 @@
 name: Continuous Delivery
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
@@ -15,7 +14,6 @@ jobs:
     with:
       project-name: '@sapphire/iana-mime-types'
       build: true
-      skip-automatic-bump: true
     secrets:
       NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
       SKYRA_TOKEN: ${{ secrets.SKYRA_TOKEN }}
