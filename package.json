@@ -1,0 +1,98 @@
+{
+  "name": "@sapphire/iana-mime-types",
+  "version": "1.0.0",
+  "description": "TODO",
+  "author": "@sapphire",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.mjs",
+  "types": "dist/cjs/index.d.cts",
+  "exports": {
+    "import": {
+      "types": "./dist/esm/index.d.mts",
+      "default": "./dist/esm/index.mjs"
+    },
+    "require": {
+      "types": "./dist/cjs/index.d.cts",
+      "default": "./dist/cjs/index.cjs"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "lint": "eslint src --ext ts --fix",
+    "test": "vitest run",
+    "format": "prettier --write .",
+    "build": "tsup && yarn exec mv dist/esm/index.d.ts dist/esm/index.d.mts",
+    "bump": "cliff-jumper",
+    "check-update": "cliff-jumper --dry-run",
+    "prepack": "yarn build",
+    "sync-mime-types": "tsx scripts/sync-mime-types.mts"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@favware/cliff-jumper": "^6.0.0",
+    "@sapphire/eslint-config": "^5.0.6",
+    "@sapphire/prettier-config": "^2.0.0",
+    "@sapphire/ts-config": "^5.0.1",
+    "@types/node": "^22.15.31",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.1",
+    "lint-staged": "^16.1.0",
+    "prettier": "^3.5.3",
+    "tsup": "^8.5.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=v20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapphiredev/iana-mime-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sapphiredev/iana-mime-types/issues"
+  },
+  "homepage": "https://github.com/sapphiredev/iana-mime-types",
+  "keywords": [
+    "iana",
+    "mime",
+    "types",
+    "sapphire"
+  ],
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "!(*.js|*.mjs|*.ts)": [
+      "prettier --ignore-unknown --write"
+    ],
+    "*.{mjs,js,ts,tsx}": [
+      "eslint --fix",
+      "prettier --ignore-unknown --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "eslintConfig": {
+    "extends": "@sapphire"
+  },
+  "packageManager": "yarn@4.9.2"
+}

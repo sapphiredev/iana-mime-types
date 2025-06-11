@@ -1,0 +1,9 @@
+name: iana-mime-types
+packagePath: .
+org: sapphire
+identifierBase: false
+pushTag: true
+githubRelease: true
+githubReleaseLatest: true
+gitRepo: sapphiredev/iana-mime-types
+gitHostVariant: github

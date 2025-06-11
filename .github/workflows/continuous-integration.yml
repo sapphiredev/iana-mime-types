@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  linting:
+    name: Linting
+    uses: sapphiredev/.github/.github/workflows/reusable-lint.yml@main
+
+  build:
+    name: Building
+    uses: sapphiredev/.github/.github/workflows/reusable-build.yml@main
