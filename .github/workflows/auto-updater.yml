@@ -31,6 +31,7 @@ jobs:
           GITHUB_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit any changes
+        id: commit_changes
         run: |
           git add .;
           if git diff-index --quiet HEAD --; then
@@ -39,4 +40,8 @@ jobs:
           else
             git commit -sam "feat: update mime types";
             git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
+            echo "should_do_release=true" >> "$GITHUB_OUTPUT"
           fi
+      - name: Trigger Continuous Delivery Workflow
+        if: ${{ steps.commit_changes.outputs.should_do_release == 'true' }}
+        run: gh workflow run continuous-delivery.yml --repo ${{ github.repository }} -b main
