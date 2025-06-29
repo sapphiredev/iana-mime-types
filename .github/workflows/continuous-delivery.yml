@@ -1,20 +1,28 @@
 name: Continuous Delivery
 
 on:
-  workflow_dispatch:
-  push:
+  workflow_run:
+    workflows: ['Automatic Data Update']
+    types:
+      - completed
     branches:
       - main
-    paths:
-      - src/
 
 jobs:
   PublishPackage:
     name: Publish @sapphire/iana-mime-types
-    uses: sapphiredev/.github/.github/workflows/reusable-publish.yml@main
-    with:
-      project-name: '@sapphire/iana-mime-types'
-      build: true
-    secrets:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
-      SKYRA_TOKEN: ${{ secrets.SKYRA_TOKEN }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Data
+        run: |
+          echo "Testing data..."
+          # log the contents of github.event.workflow_run
+          echo "Workflow run data: ${{ toJson(github.event.workflow_run) }}"
+    # uses: sapphiredev/.github/.github/workflows/reusable-publish.yml@main
+    # if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    # with:
+    #   project-name: '@sapphire/iana-mime-types'
+    #   build: true
+    # secrets:
+    #   NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+    #   SKYRA_TOKEN: ${{ secrets.SKYRA_TOKEN }}

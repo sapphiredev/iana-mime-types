@@ -31,17 +31,14 @@ jobs:
           GITHUB_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit any changes
-        id: commit_changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add .;
           if git diff-index --quiet HEAD --; then
-            echo "No changes to commit, exiting with code 0"
-            exit 0;
+            echo "No changes to commit, cancelling workflow run ${GITHUB_RUN_ID}"
+            gh run cancel ${GITHUB_RUN_ID}
           else
             git commit -sam "feat: update mime types";
             git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
-            echo "should_do_release=true" >> "$GITHUB_OUTPUT"
           fi
-      - name: Trigger Continuous Delivery Workflow
-        if: ${{ steps.commit_changes.outputs.should_do_release == 'true' }}
-        run: gh workflow run continuous-delivery.yml --repo ${{ github.repository }} -b main
