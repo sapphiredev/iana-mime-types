@@ -1,6 +1,11 @@
 name: Continuous Delivery
 
 on:
+  workflow_run:
+    workflows:
+      - 'Automatic Data Update'
+    types:
+      - completed
   push:
     branches:
       - main
