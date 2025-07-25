@@ -180,6 +180,7 @@ export type MimeType =
   | 'application/framework-attributes+xml'
   | 'application/geo+json'
   | 'application/geo+json-seq'
+  | 'application/geofeed+csv'
   | 'application/geopackage+sqlite3'
   | 'application/geopose+json'
   | 'application/geoxacml+json'
