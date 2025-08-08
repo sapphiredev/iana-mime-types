@@ -224,6 +224,7 @@ export type MimeType =
   | 'application/jscontact+json'
   | 'application/json'
   | 'application/json-patch+json'
+  | 'application/json-patch-query+json'
   | 'application/json-seq'
   | 'application/jsonpath'
   | 'application/jwk+json'
