@@ -1415,6 +1415,7 @@ export type MimeType =
   | 'application/vnd.quarantainenet'
   | 'application/vnd.Quark.QuarkXPress'
   | 'application/vnd.quobject-quoxdocument'
+  | 'application/vnd.R74n.sandboxels+json'
   | 'application/vnd.radisys.moml+xml'
   | 'application/vnd.radisys.msml-audit-conf+xml'
   | 'application/vnd.radisys.msml-audit-conn+xml'
