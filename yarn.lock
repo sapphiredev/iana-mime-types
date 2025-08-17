@@ -890,7 +890,7 @@ __metadata:
     "@sapphire/eslint-config": "npm:^5.0.6"
     "@sapphire/prettier-config": "npm:^2.0.0"
     "@sapphire/ts-config": "npm:^5.0.1"
-    "@types/node": "npm:^22.17.1"
+    "@types/node": "npm:^22.17.2"
     "@typescript-eslint/eslint-plugin": "npm:^7.13.1"
     "@typescript-eslint/parser": "npm:^7.13.1"
     cz-conventional-changelog: "npm:^3.3.0"
@@ -900,7 +900,7 @@ __metadata:
     lint-staged: "npm:^16.1.5"
     prettier: "npm:^3.6.2"
     tsup: "npm:^8.5.0"
-    tsx: "npm:^4.20.3"
+    tsx: "npm:^4.20.4"
     typescript: "npm:^5.8.3"
   languageName: unknown
   linkType: soft
@@ -975,12 +975,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^22.17.1":
-  version: 22.17.1
-  resolution: "@types/node@npm:22.17.1"
+"@types/node@npm:*, @types/node@npm:^22.17.2":
+  version: 22.17.2
+  resolution: "@types/node@npm:22.17.2"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10/775d3996693ce2e717267c810669a8122308676487130c91590022ded38a999fef63fd63b4631fdbbceeea9470f0ecf6a2333a3abbc4f917f40b404bbb57e9bc
+  checksum: 10/b830746c65e014d7d47102ab2f24ec74bdb60156b9b75af42e75d81375f211904347125c00543b5fd7119223b3157726bc9814619205571c0a0afd6ce3c43abb
   languageName: node
   linkType: hard
 
@@ -4868,9 +4868,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsx@npm:^4.20.3":
-  version: 4.20.3
-  resolution: "tsx@npm:4.20.3"
+"tsx@npm:^4.20.4":
+  version: 4.20.4
+  resolution: "tsx@npm:4.20.4"
   dependencies:
     esbuild: "npm:~0.25.0"
     fsevents: "npm:~2.3.3"
@@ -4880,7 +4880,7 @@ __metadata:
       optional: true
   bin:
     tsx: dist/cli.mjs
-  checksum: 10/62f40d06a41deebd51690b086f4387d842a826542639b6a26fd6cf09158c6b44956ca9d9088146330ab0622587b2329981cc3584b89025040f3aa100c50ac13c
+  checksum: 10/dc5d7b7a15fc67f9e3bd20a6d0b3322bd798aa544ce6ab1e857134ea5803f2cd7ac8f4a2099e4ca842dd6e22f2d5a5ea0e0057f571f4d2101ba64b676ffaea3d
   languageName: node
   linkType: hard
 
