@@ -1,6 +1,6 @@
 {
   "name": "@sapphire/iana-mime-types",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Fully automated repository that updates a list of IANA MIME types",
   "author": "@sapphire",
   "license": "MIT",
