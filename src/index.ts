@@ -1070,6 +1070,7 @@ export type MimeType =
   | 'application/vnd.lotus-screencam'
   | 'application/vnd.lotus-wordpro'
   | 'application/vnd.macports.portpkg'
+  | 'application/vnd.maml'
   | 'application/vnd.mapbox-vector-tile'
   | 'application/vnd.marlin.drm.actiontoken+xml'
   | 'application/vnd.marlin.drm.conftoken+xml'
