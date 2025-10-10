@@ -412,6 +412,8 @@ export type MimeType =
   | 'application/sbml+xml'
   | 'application/scaip+xml'
   | 'application/scim+json'
+  | 'application/scitt-receipt+cose'
+  | 'application/scitt-statement+cose'
   | 'application/scvp-cv-request'
   | 'application/scvp-cv-response'
   | 'application/scvp-vp-request'
