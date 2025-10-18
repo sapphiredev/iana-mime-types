@@ -4,6 +4,8 @@ export type MimeType =
   | 'application/3gppHal+json'
   | 'application/3gppHalForms+json'
   | 'application/3gpp-ims+xml'
+  | 'application/3gpp-mbs-object-manifest+json'
+  | 'application/3gpp-mbs-user-service-descriptions+json'
   | 'application/A2L'
   | 'application/ace-groupcomm+cbor'
   | 'application/ace-trl+cbor'
