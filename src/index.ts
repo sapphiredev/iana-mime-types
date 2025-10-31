@@ -870,6 +870,7 @@ export type MimeType =
   | 'application/vnd.ezpix-album'
   | 'application/vnd.ezpix-package'
   | 'application/vnd.f-secure.mobile'
+  | 'application/vnd.faf+yaml'
   | 'application/vnd.fastcopy-disk-image'
   | 'application/vnd.familysearch.gedcom+zip'
   | 'application/vnd.fdsn.mseed'
