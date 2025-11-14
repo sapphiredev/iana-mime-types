@@ -36,6 +36,8 @@ export type MimeType =
   | 'application/AML'
   | 'application/andrew-inset'
   | 'application/applefile'
+  | 'application/asyncapi+json'
+  | 'application/asyncapi+yaml'
   | 'application/at+jwt'
   | 'application/ATF'
   | 'application/ATFX'
