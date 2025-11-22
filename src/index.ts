@@ -360,6 +360,8 @@ export type MimeType =
   | 'application/private-token-response'
   | 'application/problem+json'
   | 'application/problem+xml'
+  | 'application/protobuf'
+  | 'application/protobuf+json'
   | 'application/provenance+xml'
   | 'application/provided-claims+jwt'
   | 'application/prs.alvestrand.titrax-sheet'
