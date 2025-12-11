@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+# [@sapphire/iana-mime-types@1.18.0](https://github.com/sapphiredev/iana-mime-types/compare/@sapphire/iana-mime-types@1.17.0...@sapphire/iana-mime-types@1.18.0) - (2025-12-11)
+
+## 🚀 Features
+
+- Update mime types ([741c147](https://github.com/sapphiredev/iana-mime-types/commit/741c1477ed09a7231544b97760b0e15f35f09691))
+
 # [@sapphire/iana-mime-types@1.17.0](https://github.com/sapphiredev/iana-mime-types/compare/@sapphire/iana-mime-types@1.16.0...@sapphire/iana-mime-types@1.17.0) - (2025-11-22)
 
 ## 🚀 Features
