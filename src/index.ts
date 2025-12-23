@@ -382,6 +382,7 @@ export type MimeType =
   | 'application/prs.nprend'
   | 'application/prs.plucker'
   | 'application/prs.rdf-xml-crypt'
+  | 'application/prs.sclt'
   | 'application/prs.vcfbzip2'
   | 'application/prs.xsf+xml'
   | 'application/pskc+xml'
