@@ -1629,6 +1629,7 @@ export type MimeType =
   | 'application/vnd.xacml+json'
   | 'application/vnd.xara'
   | 'application/vnd.xarin.cpj'
+  | 'application/vnd.xcdn'
   | 'application/vnd.xecrets-encrypted'
   | 'application/vnd.xfdl'
   | 'application/vnd.xfdl.webform'
