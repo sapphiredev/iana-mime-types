@@ -1652,6 +1652,7 @@ export type MimeType =
   | 'application/vnd.yaoweme'
   | 'application/vnd.yellowriver-custom-menu'
   | 'application/vnd.youtube.yt'
+  | 'application/vnd.zoho-presentation.show'
   | 'application/vnd.zul'
   | 'application/vnd.zzazz.deck+xml'
   | 'application/voicexml+xml'
