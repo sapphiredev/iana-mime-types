@@ -651,6 +651,7 @@ export type MimeType =
   | 'application/vnd.age'
   | 'application/vnd.ah-barcode'
   | 'application/vnd.ahead.space'
+  | 'application/vnd.aia'
   | 'application/vnd.airzip.filesecure.azf'
   | 'application/vnd.airzip.filesecure.azs'
   | 'application/vnd.amadeus+json'
