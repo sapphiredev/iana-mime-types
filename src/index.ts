@@ -1818,6 +1818,7 @@ export type MimeType =
   | 'audio/SMV0'
   | 'audio/SMV-QCP'
   | 'audio/sofa'
+  | 'audio/soundfont'
   | 'audio/sp-midi'
   | 'audio/speex'
   | 'audio/t140c'
