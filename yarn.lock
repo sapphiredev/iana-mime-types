@@ -897,7 +897,7 @@ __metadata:
     "@sapphire/eslint-config": "npm:^5.0.6"
     "@sapphire/prettier-config": "npm:^2.0.0"
     "@sapphire/ts-config": "npm:^5.0.3"
-    "@types/node": "npm:^22.19.7"
+    "@types/node": "npm:^22.19.10"
     "@typescript-eslint/eslint-plugin": "npm:^7.13.1"
     "@typescript-eslint/parser": "npm:^7.13.1"
     cz-conventional-changelog: "npm:^3.3.0"
@@ -982,12 +982,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^22.19.7":
-  version: 22.19.7
-  resolution: "@types/node@npm:22.19.7"
+"@types/node@npm:*, @types/node@npm:^22.19.10":
+  version: 22.19.10
+  resolution: "@types/node@npm:22.19.10"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10/0a5c9cc3bdd2a2d8105735b136e280a2dec90136679adfe82faa7e4de375dcc6b4cebaa6b2de35cc6b37e5e135cdc9486373d574782a4ca22f5eeab299111aa6
+  checksum: 10/f5fddfd2dc5f15caa12cf1b1e9695453df4fd5fcf3dd9c743e5109fca681962e8e740421f479e75981dea9b6f680a4de241d429db643704802067c615920c002
   languageName: node
   linkType: hard
 
