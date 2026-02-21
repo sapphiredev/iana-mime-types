@@ -7,6 +7,7 @@ export type MimeType =
   | 'application/3gpp-media-delivery-metrics-report+json'
   | 'application/3gppHal+json'
   | 'application/3gppHalForms+json'
+  | 'application/aas+zip'
   | 'application/A2L'
   | 'application/ace-groupcomm+cbor'
   | 'application/ace-trl+cbor'
