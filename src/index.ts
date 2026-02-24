@@ -516,6 +516,7 @@ export type MimeType =
   | 'application/trust-chain+json'
   | 'application/trust-mark+jwt'
   | 'application/trust-mark-delegation+jwt'
+  | 'application/trust-mark-status-response+jwt'
   | 'application/ttml+xml'
   | 'application/tve-trigger'
   | 'application/tzif'
