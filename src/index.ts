@@ -175,6 +175,7 @@ export type MimeType =
   | 'application/example'
   | 'application/exi'
   | 'application/expect-ct-report+json'
+  | 'application/explicit-registration-response+jwt'
   | 'application/express'
   | 'application/fastinfoset'
   | 'application/fastsoap'
