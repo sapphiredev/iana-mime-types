@@ -279,6 +279,8 @@ export type MimeType =
   | 'application/mbms-schedule+xml'
   | 'application/mbms-user-service-description+xml'
   | 'application/mbox'
+  | 'application/measured-component+cbor'
+  | 'application/measured-component+json'
   | 'application/media_control+xml'
   | 'application/media-policy-dataset+xml'
   | 'application/mediaservercontrol+xml'
