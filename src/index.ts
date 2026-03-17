@@ -980,6 +980,8 @@ export type MimeType =
   | 'application/vnd.hbci'
   | 'application/vnd.hc+json'
   | 'application/vnd.hcl-bireports'
+  | 'application/vnd.hdfgroup.hdf4'
+  | 'application/vnd.hdfgroup.hdf5'
   | 'application/vnd.hdt'
   | 'application/vnd.heroku+json'
   | 'application/vnd.hhe.lesson-player'
