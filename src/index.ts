@@ -501,6 +501,7 @@ export type MimeType =
   | 'application/tamp-update-confirm'
   | 'application/taxii+json'
   | 'application/td+json'
+  | 'application/teep+cbor'
   | 'application/tei+xml'
   | 'application/TETRA_ISI'
   | 'application/texinfo'
