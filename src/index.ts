@@ -393,6 +393,8 @@ export type MimeType =
   | 'application/pskc+xml'
   | 'application/pvd+json'
   | 'application/rdf+xml'
+  | 'application/roughtime-malfeasance+json'
+  | 'application/roughtime-server+json'
   | 'application/route-apd+xml'
   | 'application/route-s-tsid+xml'
   | 'application/route-usd+xml'
