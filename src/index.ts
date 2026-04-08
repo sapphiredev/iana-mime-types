@@ -1432,6 +1432,7 @@ export type MimeType =
   | 'application/vnd.pcos'
   | 'application/vnd.pg.format'
   | 'application/vnd.pg.osasli'
+  | 'application/vnd.phbk+xml'
   | 'application/vnd.piaccess.application-licence'
   | 'application/vnd.picsel'
   | 'application/vnd.pmi.widget'
