@@ -744,6 +744,7 @@ export type MimeType =
   | 'application/vnd.cluetrust.cartomobile-config'
   | 'application/vnd.cluetrust.cartomobile-config-pkg'
   | 'application/vnd.cmmf-configuration-information+json'
+  | 'application/vnd.cmmf-efd+xml'
   | 'application/vnd.cmmf-encoder-configuration+json'
   | 'application/vnd.cncf.helm.chart.content.v1.tar+gzip'
   | 'application/vnd.cncf.helm.chart.provenance.v1.prov'
