@@ -490,6 +490,7 @@ export type MimeType =
   | 'application/suit-report+cose'
   | 'application/swid+cbor'
   | 'application/swid+xml'
+  | 'application/syslog-msg'
   | 'application/tamp-apex-update'
   | 'application/tamp-apex-update-confirm'
   | 'application/tamp-community-update'
