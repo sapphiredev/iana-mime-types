@@ -89,6 +89,7 @@ export type MimeType =
   | 'application/cid-edhoc+cbor-seq'
   | 'application/city+json'
   | 'application/city+json-seq'
+  | 'application/client-authentication+jwt'
   | 'application/clr'
   | 'application/clue_info+xml'
   | 'application/clue+xml'
