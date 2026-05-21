@@ -694,6 +694,7 @@ export type MimeType =
   | 'application/vnd.apple.mpegurl'
   | 'application/vnd.apple.numbers'
   | 'application/vnd.apple.pages'
+  | 'application/vnd.apple.steering-list'
   | 'application/vnd.arastra.swi'
   | 'application/vnd.aristanetworks.swi'
   | 'application/vnd.artisan+json'
