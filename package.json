@@ -49,7 +49,7 @@
     "lint-staged": "^16.4.0",
     "prettier": "^3.8.3",
     "tsup": "^8.5.1",
-    "tsx": "^4.22.1",
+    "tsx": "^4.22.3",
     "typescript": "^5.8.3"
   },
   "engines": {
@@ -94,5 +94,5 @@
   "eslintConfig": {
     "extends": "@sapphire"
   },
-  "packageManager": "yarn@4.14.1"
+  "packageManager": "yarn@4.15.0"
 }
