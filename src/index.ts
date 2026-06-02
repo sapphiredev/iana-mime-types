@@ -2162,6 +2162,7 @@ export type MimeType =
   | 'text/vnd.ficlab.flt'
   | 'text/vnd.fly'
   | 'text/vnd.fmi.flexstor'
+  | 'text/vnd.gist.mx'
   | 'text/vnd.gml'
   | 'text/vnd.graphviz'
   | 'text/vnd.hans'
