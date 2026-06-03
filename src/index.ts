@@ -705,6 +705,7 @@ export type MimeType =
   | 'application/vnd.as207960.vas.tap+uper'
   | 'application/vnd.astraea-software.iota'
   | 'application/vnd.audiograph'
+  | 'application/vnd.aumtrix.aum'
   | 'application/vnd.autopackage'
   | 'application/vnd.avalon+json'
   | 'application/vnd.avistar+xml'
