@@ -479,6 +479,7 @@ export type MimeType =
   | 'application/soap+xml'
   | 'application/sparql-query'
   | 'application/spdx+json'
+  | 'application/spdx3+json'
   | 'application/sparql-results+xml'
   | 'application/spirits-event+xml'
   | 'application/sql'
