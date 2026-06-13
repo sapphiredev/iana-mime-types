@@ -489,6 +489,8 @@ export type MimeType =
   | 'application/sslkeylogfile'
   | 'application/ssml+xml'
   | 'application/ST2110-41'
+  | 'application/statuslist+cwt'
+  | 'application/statuslist+jwt'
   | 'application/stix+json'
   | 'application/stratum'
   | 'application/suit-envelope+cose'
