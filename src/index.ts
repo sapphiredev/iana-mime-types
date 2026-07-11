@@ -405,6 +405,8 @@ export type MimeType =
   | 'application/route-apd+xml'
   | 'application/route-s-tsid+xml'
   | 'application/route-usd+xml'
+  | 'application/rpki-ccr'
+  | 'application/rpki-ccr+gzip'
   | 'application/QSIG'
   | 'application/raptorfec'
   | 'application/rdap+json'
