@@ -841,6 +841,7 @@ export type MimeType =
   | 'application/vnd.dtg.local.flash'
   | 'application/vnd.dtg.local.html'
   | 'application/vnd.dvb.ait'
+  | 'application/vnd.dvb.dash-playlist+xml'
   | 'application/vnd.dvb.dvbisl+xml'
   | 'application/vnd.dvb.dvbj'
   | 'application/vnd.dvb.esgcontainer'
