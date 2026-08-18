@@ -668,6 +668,7 @@ export type MimeType =
   | 'application/vnd.adobe.fxp'
   | 'application/vnd.adobe.partial-upload'
   | 'application/vnd.adobe.xdp+xml'
+  | 'application/vnd.aep+zip'
   | 'application/vnd.aether.imp'
   | 'application/vnd.afpc.afplinedata'
   | 'application/vnd.afpc.afplinedata-pagedef'
