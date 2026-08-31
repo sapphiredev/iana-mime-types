@@ -1,4 +1,5 @@
 name: Continuous Delivery
+run-name: Publish @sapphire/iana-mime-types
 
 on:
   workflow_run:
@@ -7,6 +8,10 @@ on:
       - completed
     branches:
       - main
+
+permissions:
+  id-token: write
+  contents: write
 
 jobs:
   PublishPackage:
@@ -17,5 +22,4 @@ jobs:
       project-name: '@sapphire/iana-mime-types'
       build: true
     secrets:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
       SKYRA_TOKEN: ${{ secrets.SKYRA_TOKEN }}
