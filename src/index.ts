@@ -946,6 +946,7 @@ export type MimeType =
   | 'application/vnd.ffsns'
   | 'application/vnd.fgb'
   | 'application/vnd.ficlab.flb+zip'
+  | 'application/vnd.fiduswriter+zip'
   | 'application/vnd.filmit.zfc'
   | 'application/vnd.fints'
   | 'application/vnd.firemonkeys.cloudcell'
