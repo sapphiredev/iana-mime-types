@@ -1503,6 +1503,7 @@ export type MimeType =
   | 'application/vnd.preminet'
   | 'application/vnd.previewsystems.box'
   | 'application/vnd.prismatic'
+  | 'application/vnd.prml+yaml'
   | 'application/vnd.project-graph'
   | 'application/vnd.proteus.magazine'
   | 'application/vnd.psfs'
