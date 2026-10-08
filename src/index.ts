@@ -1164,6 +1164,7 @@ export type MimeType =
   | 'application/vnd.macports.portpkg'
   | 'application/vnd.majikah.bundle'
   | 'application/vnd.majikah.mjksig'
+  | 'application/vnd.majikah.mjksmap'
   | 'application/vnd.maml'
   | 'application/vnd.mapbox-vector-tile'
   | 'application/vnd.marlin.drm.actiontoken+xml'
