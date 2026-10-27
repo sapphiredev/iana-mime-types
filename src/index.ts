@@ -2235,6 +2235,7 @@ export type MimeType =
   | 'text/vnd.ficlab.flt'
   | 'text/vnd.fly'
   | 'text/vnd.fmi.flexstor'
+  | 'text/vnd.geml'
   | 'text/vnd.gist.mx'
   | 'text/vnd.gml'
   | 'text/vnd.godot.gdscript'
