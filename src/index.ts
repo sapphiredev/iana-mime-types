@@ -1067,6 +1067,7 @@ export type MimeType =
   | 'application/vnd.ibm.modcap'
   | 'application/vnd.ibm.rights-management'
   | 'application/vnd.ibm.secure-container'
+  | 'application/vnd.ibus+json'
   | 'application/vnd.iccprofile'
   | 'application/vnd.ieee.1905'
   | 'application/vnd.igloader'
