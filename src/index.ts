@@ -2208,6 +2208,7 @@ export type MimeType =
   | 'text/prs.lines.tag'
   | 'text/prs.mtsv'
   | 'text/prs.prop.logic'
+  | 'text/prs.rowih'
   | 'text/prs.texi'
   | 'text/qml'
   | 'text/raptorfec'
