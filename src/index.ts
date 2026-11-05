@@ -2064,6 +2064,7 @@ export type MimeType =
   | 'image/vnd.fujixerox.edmics-mmr'
   | 'image/vnd.fujixerox.edmics-rlc'
   | 'image/vnd.globalgraphics.pgb'
+  | 'image/vnd.imgformats.ssimf'
   | 'image/vnd.microsoft.icon'
   | 'image/vnd.mix'
   | 'image/vnd.ms-modi'
